@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quizz Land</title>
+</head>
+<body>
+    <section class="home-page">
+        <img src="https://educa.ibge.gov.br/templates/ibge_educa_criancas/brincadeiras/ibge_go/dist/img/ibgego.png" alt="">
+        <h1>Mostre que você é fera e tente acertar as perguntas desse quiz!</h1>
+        <button class="start-button" onclick="mostrarConteudo()">COMEÇAR</button>
+    </section>
+    <section class="first-question">
+        <h1>QUAL MOEDA É UTILIZADA NA ARGENTINA?</h1>
+        <div class="answers">
+            <button class="wrong-answer" onclick="wrongAnswer()">REAL</button>
+            <button onclick="mostrarConteudo2()">PESO ARGENTINO</button>
+            <button class="wrong-answer1" onclick="wrongAnswer1()">EURO</button>
+            <button class="wrong-answer2" onclick="wrongAnswer2()">DÓLAR</button>
+        </div>
+    </section>
+    <section class="second-question">
+        <h1>EM QUE CONTINENTE FICA LOCALIZADO A NOVA ZELÂNDIA?</h1>
+        <div class="answers2">
+            <button class="wrong-answer3" onclick="wrongAnswer3()">EUROPA</button>
+            <button class="wrong-answer4" onclick="wrongAnswer4()">AMÉRICA</button>
+            <button class="wrong-answer5" onclick="wrongAnswer5()">ÁFRICA</button>
+            <button onclick="mostrarConteudo3()">OCEANIA</button>
+        </div>
+    </section>
+    <section class="third-question">
+        <h1>QUAL É O MAIOR PAÍS DO MUNDO?</h1>
+        <div class="answers3">
+            <button  onclick="mostrarConteudo4()">RÚSSIA</button>
+            <button class="wrong-answer6" onclick="wrongAnswer6()">ESTADOS UNIDOS</button>
+            <button class="wrong-answer7" onclick="wrongAnswer7()">BRASIL</button>
+            <button class="wrong-answer8" onclick="wrongAnswer8()">CHINA</button>
+        </div>
+    </section>
+    <section class="fourth-question">
+        <h1>QUAL É O MENOR PAÍS DO MUNDO?</h1>
+        <div class="answers4">
+            <button class="wrong-answer9" onclick="wrongAnswer9()">PAQUISTÃO</button>
+            <button onclick="mostrarConteudo5()">VATICANO</button>
+            <button class="wrong-answer10" onclick="wrongAnswer10()">CHILE</button>
+            <button class="wrong-answer11" onclick="wrongAnswer11()">AUSTRÁLIA</button>
+        </div>
+    </section>
+    <section class="final-page">
+        <h1>PARABÉNS, VOCÊ CONCLUIU TODAS AS PERGUNTAS!</h1>
+        <div class="final-page-button">
+            <button onclick="mostrarConteudo6()">JOGAR NOVAMENTE</button>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
